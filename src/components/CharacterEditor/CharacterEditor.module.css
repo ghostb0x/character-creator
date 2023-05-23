@@ -66,14 +66,19 @@
   .controlColumn {
     z-index: 1;
     position: fixed;
-    top: 300px;
+    bottom: 10px;
     display: flex;
     gap: 16px;
     flex-wrap: nowrap;
     overflow: auto;
     width: 100%;
-    /* margin: -40px; */
   }
 
+  .controlColumn::-webkit-scrollbar {
+    display: none;
+}
+.backgroundColorBar {
+  display: none;
+}
 
 }
